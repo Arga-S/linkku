@@ -21,6 +21,9 @@
         );
         popup.blur();
         window.focus();
+        setTimeout(function () {
+          popup.location.href = "https://www.google.com";
+        }, 2000);
       }
       popUnder();
     </script>
